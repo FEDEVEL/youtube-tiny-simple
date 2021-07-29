@@ -1,0 +1,46 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"34 mcc_generated_files/examples/../delay.h
+[; ;mcc_generated_files/examples/../delay.h: 34: void DELAY_milliseconds(uint16_t milliseconds);
+[v _DELAY_milliseconds `(v ~T0 @X0 0 ef1`us ]
+"51 mcc_generated_files/examples/DELAY_example.c
+[; ;mcc_generated_files/examples/DELAY_example.c: 51:     PIN0_Toggle();
+[v _PIN0_Toggle `(i ~T0 @X0 0 e? ]
+"35 mcc_generated_files/examples/../delay.h
+[; ;mcc_generated_files/examples/../delay.h: 35: void DELAY_microseconds(uint16_t microseconds);
+[v _DELAY_microseconds `(v ~T0 @X0 0 ef1`us ]
+"47 mcc_generated_files/examples/DELAY_example.c
+[; ;mcc_generated_files/examples/DELAY_example.c: 47: void DELAY_MsExample(void)
+[v _DELAY_MsExample `(v ~T0 @X0 1 ef ]
+"48
+[; ;mcc_generated_files/examples/DELAY_example.c: 48: {
+{
+[e :U _DELAY_MsExample ]
+[f ]
+"49
+[; ;mcc_generated_files/examples/DELAY_example.c: 49:     DELAY_milliseconds(500);
+[e ( _DELAY_milliseconds (1 -> -> 500 `i `us ]
+"51
+[; ;mcc_generated_files/examples/DELAY_example.c: 51:     PIN0_Toggle();
+[e ( _PIN0_Toggle ..  ]
+"52
+[; ;mcc_generated_files/examples/DELAY_example.c: 52: }
+[e :UE 1 ]
+}
+"59
+[; ;mcc_generated_files/examples/DELAY_example.c: 59: void DELAY_UsExample(void)
+[v _DELAY_UsExample `(v ~T0 @X0 1 ef ]
+"60
+[; ;mcc_generated_files/examples/DELAY_example.c: 60: {
+{
+[e :U _DELAY_UsExample ]
+[f ]
+"61
+[; ;mcc_generated_files/examples/DELAY_example.c: 61:     DELAY_microseconds(50000);
+[e ( _DELAY_microseconds (1 -> -> 50000 `l `us ]
+"63
+[; ;mcc_generated_files/examples/DELAY_example.c: 63:     PIN0_Toggle();
+[e ( _PIN0_Toggle ..  ]
+"64
+[; ;mcc_generated_files/examples/DELAY_example.c: 64: }
+[e :UE 2 ]
+}
